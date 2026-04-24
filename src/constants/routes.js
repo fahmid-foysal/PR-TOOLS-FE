@@ -1,0 +1,18 @@
+export const ROUTES = {
+  LOGIN: '/login',
+  DASHBOARD: '/',
+  CONFIG_BRANDS: '/config/brands',
+  CONFIG_CATEGORIES: '/config/categories',
+  CONFIG_OFFER_CATEGORIES: '/config/offer-categories',
+  CONFIG_HOME_PAGE_SECTIONS: '/config/home-page-sections',
+  CONFIG_BANNERS: '/config/banners',
+  PRODUCTS: '/products',
+  PRODUCTS_CREATE: '/products/create',
+  PRODUCTS_DETAILS: (id) => `/products/${id}`,
+  PRODUCTS_EDIT: (id) => `/products/${id}/edit`,
+  PRODUCTS_HOME_PAGE: '/products/home-page',
+  ORDERS: '/orders',
+  USERS_CREATE_ADMIN: '/users/create-admin',
+  USERS_ADMIN_LIST: '/users/admin-list',
+  PROFILE: '/profile',
+};
